@@ -1,0 +1,46 @@
+ol {
+    list-style-type: none;
+        text-align: center;
+}
+
+.container{
+    h4{
+    color: #c33636;
+        margin: 5rem 0;
+        font-weight: 700;
+        font-size: 1.9em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    li{
+        display: inline-block;
+        position: relative;
+            margin: 0 0 2.5rem;
+    }
+    .item-list{
+        display: inline-flex;
+        flex-direction: column;
+        position: relative;
+        border: 1px solid darkgray;
+        border-radius: 0.5rem;
+        width: 570px;
+        margin: 1rem;
+        padding: 0;
+        
+        .album-image{
+            height: auto;
+            min-height: 240px;
+        }
+        .title{
+            font-weight: 600;
+            font-size: larger;
+            font-family: system-ui;
+        }
+        .desc{
+            font-size: medium;
+            font-weight: 500;
+            font-family: serif;
+            padding: 1rem;
+        }
+    }
+}
